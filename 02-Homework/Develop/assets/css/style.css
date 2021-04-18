@@ -1,0 +1,191 @@
+/* Combined all font-families into one font-family and moved into universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Aggregated font-family and color into universal selector */
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header menu {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header menu ul {
+    list-style-type: none;
+}
+
+.header menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Aggregated  color into universal selector */
+a {
+    text-decoration: none;
+}
+
+/* Moved image link into HTML in order to notate an alt */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Moved content and all children for logical structure in css */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Aggregated font-family and color into universal selector */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* Aggregated font-family and color into universal selector */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* Aggregated font-family and color into universal selector */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* Moved floats relating to section summary content for logical structure in css */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+/* Aggregated all 3 benefits choices into one. Aggregated color into universal selector */
+.benefit-lead .benefit-brand .benefit-cost {
+    margin-bottom: 32px;
+}
+
+/* Added padding-bottom to compensate for lack of spacing while aggregating color choice for all 3 benefits. Moved p for logical structure in CSS */
+p {
+    font-size: 16px;
+    padding-bottom: 32px;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Aggregated font-family into universal selector */
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
